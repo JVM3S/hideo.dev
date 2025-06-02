@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(25, 25, 25);
+    font-family: "Ubuntu Mono", serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.ubuntu-mono-regular {
+    font-family: "Ubuntu Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-mono-bold {
+    font-family: "Ubuntu Mono", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-mono-regular-italic {
+    font-family: "Ubuntu Mono", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.ubuntu-mono-bold-italic {
+    font-family: "Ubuntu Mono", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.bottom-bar {
+    background-color: rgba(48, 48, 48);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bottom-status {
+    background-color: #357a38;
+    color: #77bf7a;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bottom-filename {
+    background-color: rgb(65, 65, 65);
+    color: #bababa;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bottom-encoding {
+    color: #bababa;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bottom-px {
+    background-color: #ab003c;
+    color: #ef9cb9;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content-box {
+    color: #C5CAE9;
+    width: 60%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .content-box {
+        width: 800px;
+        width: 84%;
+    }
+
+    .header-box .header-brand {
+        width: 800px;
+        width: 84%;
+    }
+}
+
+.header-box {
+    background-color: #242424;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.header-brand {
+    color: #bababa;
+    font-size: 18px;
+    padding: 0;
+    width: 60%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.content-heading {
+    color: #F8BBD0;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+a {
+    text-decoration: underline;
+    color: #FFE0B2;
+}
+
+.neofetch{
+    line-height: normal;
+}
+
+.neo-tag {
+    color: #64B5F6;
+}
+
+.neo-tag2 {
+    color: #F06292;
+}
+
+.neo {
+    color: #E8EAF6;
+}
